@@ -1,0 +1,27 @@
+:root {
+  --bg-dark: #0f172a;
+  --bg-card-start: #111827;
+  --bg-card-end: #080d17;
+  --text-light: #f1f5f9;
+  --text-gray: #9ca3af;
+  --text-accent: #d8b4fe;
+  --text-purple: #a78bfa;
+  --accent-red: #ef4444;
+  --accent-amber: #f59e0b;
+  --accent-green: #10b981;
+  --border-light: rgba(135, 152, 181, 0.227);
+  --gradient-top: rgba(218, 128, 240, 0.647);
+  --gradient-bottom: rgba(99, 102, 241, 0.6);
+  --background-color: #1e293b;
+  --background-hover-color: #334155;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
